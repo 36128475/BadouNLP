@@ -17,7 +17,8 @@ class MyMoudle(nn.Moudle):
     x = self.layer2(x)
     return nn.Softmax(x)
 
-
+def build_sample():
+  x = randam
 
 def train():
   #超参数
