@@ -1,3 +1,7 @@
+"""
+改用交叉熵实现一个多分类任务，五维随机向量最大的数字在哪维就属于哪一类。
+"""
+
 import torch
 import torch.nn as nn
 import numpy as np
@@ -5,6 +9,7 @@ import numpy as np
 class MyMoudle(nn.Moudle):
   def __init__(self, inputs):
     super(self, MyMoudle).__init__()
+    
     
 
   def forward(self, x):
